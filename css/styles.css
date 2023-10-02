@@ -850,7 +850,7 @@ margin-bottom: 16px;
     text-decoration-line: underline;
 }
 
-input[type="checkbox"]:checked + .privacy-span {
+.visually-hidden:checked + .privacy-span {
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
