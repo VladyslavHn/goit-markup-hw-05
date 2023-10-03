@@ -836,12 +836,6 @@ margin-bottom: 16px;
     fill: transparent;
 }
 
-.privacy-input:checked .privacy-span{
-    background-color:#404bbf;
-    border: none;
-    fill:#F4F4FD;
-}
-
 .privacy-link{
     color:#4d5ae5;
     font-size: 12px;
@@ -850,7 +844,7 @@ margin-bottom: 16px;
     text-decoration-line: underline;
 }
 
-input[name="user-privacy"]:checked + .privacy-span {
+input[type="checkbox"]:checked + .privacy-span {
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
