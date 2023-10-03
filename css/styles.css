@@ -843,7 +843,7 @@ margin-bottom: 16px;
     text-decoration-line: underline;
 }
 
-input[type="checkbox"]:checked + .privacy-label.privacy-span {
+input[type="checkbox"]:checked + .privacy-label .privacy-span {
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
@@ -872,4 +872,10 @@ input[type="checkbox"]:checked + .privacy-label.privacy-span {
 
 .send-button:hover, .send-button:focus{
     background-color:#404BBF ;
+}
+
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
 }
