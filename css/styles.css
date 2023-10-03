@@ -843,7 +843,7 @@ margin-bottom: 16px;
     text-decoration-line: underline;
 }
 
-input[type="checkbox"]:focus + .privacy-label.privacy-span {
+input[type="checkbox"]:checked + .privacy-label.privacy-span {
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
