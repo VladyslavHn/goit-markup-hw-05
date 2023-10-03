@@ -821,7 +821,6 @@ margin-bottom: 16px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color:#8e8f99;
-
 }
 
 .privacy-span {
@@ -844,7 +843,7 @@ margin-bottom: 16px;
     text-decoration-line: underline;
 }
 
-input[type="checkbox"]:checked + .privacy-span {
+input[type="checkbox"]:focus + .privacy-label.privacy-span {
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
